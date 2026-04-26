@@ -49,13 +49,13 @@ python src/orf_evaluation.py reference_proteome.fasta genome.fasta 300 90
 ## Output
 ### Distance Analysis
 * **distance_parsing/** - Output directory
-** **sequence_analysis/** - GC/dinuc/diaa frequency tables and plots
-** **belvu_matrices/** - Belvu-format distance matrices (.fasta)
+  * **sequence_analysis/** - GC/dinuc/diaa frequency tables and plots
+  * **belvu_matrices/** - Belvu-format distance matrices (.fasta)
 
 ### ORF Prediction
-* **Sequence_ORFs/** - Output directory
-** **Individual ORF FASTA files per genome**
-** **ORF_summary.txt** - ORF counts per strand
+* **Sequence_ORFs/** - Output directory  
+  * **Individual ORF FASTA files per genome**
+  * **ORF_summary.txt** - ORF counts per strand
 
 ## Project Structure
 ```plain text
